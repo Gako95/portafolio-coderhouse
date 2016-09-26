@@ -1,0 +1,59 @@
+h1{
+	color:#226666;
+	text-align:center;
+	font-family:arial;
+	font-size:2em;
+	width:50%;
+}
+p{
+	color:orange;
+}
+p.negrita{
+	font-weight:bold;
+	font-style:italic;
+	font-family:arial;
+	background:green;
+	border-color:gray;
+	border-width:5px;
+	border-style:solid;
+	width:100%;
+	height:100%;
+	text-align:center;
+	word-spacing:10px;
+	letter-spacing:3px;
+}
+p.wiki{
+	text-align:center;
+	line-height:1em;
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+article p {
+	color:purple;
+}
+article#firma{
+	color:green;
+}
+article.cuerpo{
+	background:gray;
+}
+aside{
+	background:green;
+}
+aside p{
+	color:white;
+}
+.destacado{
+	color:red;
+}
+ul{
+	list-style-type:square;
+}
+ol{
+	list-style-type:upper-roman;
+}
+body{
+	background-image: url('nature-artificial.png');
+	background-position:top center;
+
+}
