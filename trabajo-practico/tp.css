@@ -1,5 +1,11 @@
-body{
-	background-image: url('nature-artificial.png');
-	background-position:top center;
-
+div#menu{
+	background-image: url('gako959.png');
+	
+	background-color:black;
+	position:fixed;
+}
+#menu ul li{
+	display:inline;
+	list-style:none;
+	color:white;
 }
