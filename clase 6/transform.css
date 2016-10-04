@@ -1,0 +1,70 @@
+/* 
+	2D transform
+	translate()
+	rotate()
+	scale()
+	skewX()
+	skewY()
+	matrix() -> matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()):
+ */
+
+/*
+	3D transform
+	rotateX()
+	rotateY()
+	rotateZ()
+*/
+
+.caja{
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border: 1px solid #000;
+	float: left;
+	background-color: steelblue;
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 100px;
+	color:#fff;
+}
+
+#caja1{
+	/*Translate*/
+	transform: translate(10px,20px);
+}
+
+#caja2{
+	/*Rotate*/
+	transform: rotate(45deg);
+}
+
+#caja3{
+	/*Scale*/
+	transform: scale(0.5,0.5);
+}
+
+#caja4{
+	/*skewX*/
+	transform: skewX(20deg);
+}
+
+#caja5{
+	/*skewY*/
+
+}
+
+#caja6{
+	/*skewY*/
+
+}
+
+#caja7{
+	/* matrix */
+	transform: matrix();
+}
+
+#caja8{
+	/* 3D */
+	transform: rotateY(24deg);
+}

@@ -1,0 +1,113 @@
+/* 
+	@keyframes example {
+	    from {background-color: red;}
+	    to {background-color: yellow;}
+	}
+	@keyframes example {
+	    0%   {background-color: red;}
+	    25%  {background-color: yellow;}
+	    50%  {background-color: blue;}
+	    100% {background-color: green;}
+	}
+    @keyframes example {
+	    0%   {background-color:red; left:0px; top:0px;}
+	    25%  {background-color:yellow; left:200px; top:0px;}
+	    50%  {background-color:blue; left:200px; top:200px;}
+	    75%  {background-color:green; left:0px; top:200px;}
+	    100% {background-color:red; left:0px; top:0px;}
+	}
+	animation-name: example;
+    animation-duration: 4s;
+    animation: example 2s;
+	animation-iteration-count: 3 | infinite;
+	animation-direction: reverse | alternate;
+	animation-timing-function: linear | ease | ease-in | ease-out | ease-in-out;
+ */
+
+.caja{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	border: 1px solid #000;
+	background-color: steelblue;
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	color:#fff;
+}
+@keyframes ejemplo{
+	from{
+		background-color:red;
+	}
+	to{
+		background-color: yellow;
+	}
+}
+@keyframes example {
+	    0%   {background-color:red; left:0px; top:0px;}
+	    25%  {background-color:yellow; left:200px; top:0px;}
+	    50%  {background-color:blue; left:200px; top:200px;}
+	    75%  {background-color:green; left:0px; top:200px;}
+	    100% {background-color:red; left:0px; top:0px;}
+	}
+#caja1{
+
+}
+
+#caja1:hover{
+	animation-name:ejemplo;
+	animation-duration:2s;
+	animation-iteration-count:2;
+	animation-direction:alternate;
+}
+
+#caja2{
+	
+
+}
+
+#caja2:hover{
+
+}
+
+#caja3{
+	animation-name:example 3s alternate infinite;
+
+}
+
+#caja3:hover{
+
+}
+@keyframes girar{
+	0%   {
+		background-color:red; 
+		transform:rotateY(0deg);
+	}
+	25%  {
+	    background-color:yellow;
+	    transform:rotateY(90deg); 
+	    	
+	}
+	50%  {
+		background-color:blue;
+		transform:rotateY(180deg);
+	    	
+	}
+	75%  {
+		background-color:yellow;
+		transform:rotateY(210deg); 
+	    	
+	}
+	100% {
+		background-color:red; 
+		transform:rotateY(280deg);
+	}
+}
+#caja4{
+	animation-name: girar;
+	animation-duration: 3s;
+}
+
+#caja4:hover{
+
+}
