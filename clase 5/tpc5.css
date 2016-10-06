@@ -21,8 +21,11 @@ body{
 	
 }
 header{
+	width: 100%;
 	display:flex;
 	flex-direction:row;
+	justify-content:space-between;
+
 	
 }
 .links{
@@ -36,8 +39,10 @@ header{
 
 }
 footer{
+	width: 100%;
 	display:flex;
 	flex-direction:row;
+	justify-content:space-between;
 	
 }
 .main{
@@ -60,4 +65,9 @@ p{
 	display:flex;
 	flex-direction: column;
 }
-
+#prim{
+	border-bottom:1px solid #003333;
+}
+.sect{
+	padding:20px;
+}
