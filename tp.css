@@ -1,12 +1,14 @@
-
 body{
 	background-color:#003333;
 }
 header{
 	display:flex;
 	background-color: black;
-	border:solid 3px steelblue;
+	border:solid 3px gray;
 	justify-content:space-between;
+}
+a{
+	text-decoration:none;
 }
 @keyframes girar{
 	0%{
@@ -38,7 +40,7 @@ div.logo{
 }
 div#menu{
 	background-color:white;
-	border: solid 3px steelblue
+	border: solid 3px gray;
 }
 div#poster{
 	height:300px;
@@ -49,11 +51,17 @@ div#poster{
 	background-repeat:no-repeat;
 }
 #main{
-	
 	display: flex;
 	flex-direction: column;
 	flex-wrap:wrap;
 	align-items: center;
+}
+h3{
+	color:black;
+	font-family: arial;
+}
+h3:hover{
+	color:blue;
 }
 .sec{
 	width:60%;
@@ -63,6 +71,7 @@ div#poster{
 article{
 	background-color:white;
 	border:solid 3px black;
+	border-radius:10px;
 	height: 300px;
 	width: 300px;
 	padding: 10px;
@@ -74,16 +83,19 @@ footer{
 	background-color:#264242;
 	width: 100%;
 	border:solid 3px #264242;
+	border-radius:10px;
 	display:flex;
 	justify-content:space-between;
 }
 .links{
 	background-color:white;
 	border:solid 3px #003333;
+	border-radius:10px;
 }
 .social{
 	background-color:white;
 	border:solid 3px #003333;
+	border-radius:10px;
 }
 @media screen and (max-width:600px){
 	#main{
